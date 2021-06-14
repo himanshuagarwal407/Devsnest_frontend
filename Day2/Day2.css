@@ -1,0 +1,17 @@
+body
+{
+    background-color: powderblue;
+}
+
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 580px;
+    font-size: 18px;
+
+.topleft {
+    padding-left: 10px;
+    position: absolute;
+    top: 8px;
+    left: 160px;
+    font-size: 18px;
