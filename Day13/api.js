@@ -16,7 +16,7 @@ button.addEventListener("click",()=>{
             str += `<li>Company: ${data.company}</li>`
             str += `<li>Location: ${data.location}</li>`
             str += `<li>Email: ${data.email}</li>`
-            str += `<li>Followewrs: ${data.followers}</li>`
+            str += `<li>Followers: ${data.followers}</li>`
         document.querySelector('.content').innerHTML = str;
     })
 });
