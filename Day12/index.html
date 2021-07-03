@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo-List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="row">My ToDo List</h1>
+        <br>
+
+        <div class="row">
+            <form>
+
+                <div class="input_group">
+                    <span class="input-group-addon">
+                        <i class="glyphicon glyphicon-pencil"></i>
+                    </span>
+                    <input type="text" placeholder="ToDo-Item" class="textArea" id="box" style="width: 30vw">
+                </div>
+
+                <div class="form_group">
+                    <input type="button" class="button" value="Add Item" onclick="add_item()">
+                </div>
+            </form>
+        </div>
+
+        <div class="row">
+            <ul id="list_item"></ul>
+        </div>
+
+    </div>
+
+
+    <script src="todo.js"></script>
+</body>
+
+</html>

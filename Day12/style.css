@@ -1,0 +1,48 @@
+body
+{
+    background: #ecdada;
+    overflow: auto;
+}
+
+h1{
+    text-align: center;
+    margin: 1%;
+    font-size: 2rem;
+}
+
+ul
+{
+    text-align: left;
+    padding-left: 20%;
+    padding: 7%;
+    font-size: 2rem;
+    list-style: circle;
+}
+
+li:hover
+{
+    color: rebeccapurple;
+    margin: 4%;
+    transition: 1.5s ease;
+    cursor: alias;
+}
+
+.textArea,.input_group, .form_group
+{
+    margin : 1%;
+    text-align: center;
+}
+
+.textArea
+{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 2px;    
+}
+
+.button
+{
+    padding:  5px 13px 5px 13px;
+    border: 2px solid black;
+    border-radius: 2px;
+}
